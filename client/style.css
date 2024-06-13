@@ -1,4 +1,4 @@
-@import url("./assets/styles/fonts.css");
+@import url("client/assets/styles/fonts.css");
 
 * {
   margin: 0;
@@ -29,6 +29,7 @@ body {
   color: var(--mainBlack);
   background-color: var(--mainWhite);
   overflow-x: hidden;
+  font-family: 'IranYekan', Helvetica, Arial, sans-serif;
 }
 
 a{
@@ -197,7 +198,6 @@ button{
     text-align: right;
     cursor: pointer;
     border-radius: 5px;
-    transition: all 0.5s ease-in-out;
 
 }
 

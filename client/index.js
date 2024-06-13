@@ -38,7 +38,16 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     router();
 })
-window.addEventListener("popstate", router)
+window.addEventListener("popstate", router);
+
+navItem.forEach(item =>{
+    item.addEventListener("click",()=>{
+        var viewportWidth = window.innerWidth;
+        if (viewportWidth <= 768) {
+            toggleSidebar();
+        }
+    })
+})
 
 // FUNCTIONS
 //1.sidebar
